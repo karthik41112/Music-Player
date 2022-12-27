@@ -1,0 +1,151 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --text-color: white;
+  --text-background-color: rgb(7, 11, 32);
+}
+/* Nav Bar ---------------------------------- */
+.navBar {
+  background-color: rgb(3, 6, 19);
+  z-index: 3;
+  color: var(--text-color);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+/* leftSide */
+.container-left {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0.5em;
+}
+
+.logo img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+.brand p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+/* right Side */
+.container-right {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  color: rgb(14, 14, 14);
+  background-color: rgb(252, 252, 254);
+  border-radius: 20px;
+  margin-right: 0.5em;
+}
+.search-text {
+  display: flex;
+}
+.search-text input {
+  border-radius: 20px 0 0 20px;
+  border: 0px;
+}
+
+.search-text input:active {
+  border: 0px;
+}
+.search-but button {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.search-but button:active {
+  background-color: white;
+}
+
+.notification {
+  margin-right: 0.5em;
+}
+.profile {
+  width: 60px;
+  height: 60px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+/* BODY */
+.body {
+  background-color: var(--text-background-color);
+  height: 90%;
+  display: flex;
+  padding: 2em;
+}
+/* eighty percentage -------------------------------------- */
+.eighty {
+  /* background-color: blueviolet; */
+  height: 100%;
+  width: 80%;
+}
+/* Flase */
+.flase {
+  display: flex;
+  justify-content: space-around;
+}
+.flase-box {
+  width: 300px;
+  height: 300px;
+}
+
+.flase-box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* latest release */
+
+.latest-release {
+  margin: 20px 0;
+  width: 100%;
+  height: 15em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: var(--text-color);
+}
+.latest-release h1 {
+  width: 100%;
+  margin: 0;
+}
+.lr-box {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  height: 50%;
+}
+.lr-box p {
+  margin: 0;
+}
+.lr-box .text {
+  margin: 0px 1.5em 0px 1em;
+}
+.lr-image img {
+  width: 60px;
+}
+
+.twenty {
+  background-color: rgb(35, 172, 85);
+  height: 100%;
+  width: 20%;
+}
